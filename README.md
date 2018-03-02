@@ -1,6 +1,7 @@
 # Loomo Remote: Phone app
 
 This project is a showcase of [SegwayRobotics Loomo](https://loomo.com) API.
+
 It consists of this project and the [corresponding app to be run on Loomo](https://github.com/iteratec/LoomoRemoteRobot).
 
 It allows users to remotely control the robot, play sounds, use text-to-speech and show a video feed from Loomos front camera.
@@ -28,7 +29,7 @@ It allows users to remotely control the robot, play sounds, use text-to-speech a
 ### Installing
 
 1. Clone the git repo into your designated folder.
-2. Import to Android Studio
+2. Open the project with Android Studio
 3. Connect Android phone via cable OR launch your emulator
 4. Deploy the app on the device
 
