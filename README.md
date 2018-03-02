@@ -1,7 +1,7 @@
 # Loomo Remote: Phone app
 
-This project is a showcase of SegwayRobotics Loomo (https://loomo.com) API.
-It consists of this project and the corresponding endpoint to be run on Loomo (https://github.com/iteratec/LoomoRemoteRobot).
+This project is a showcase of [SegwayRobotics Loomo](https://loomo.com) API.
+It consists of this project and the [corresponding app to be run on Loomo](https://github.com/iteratec/LoomoRemoteRobot).
 
 It allows users to remotely control the robot, play sounds, use text-to-speech and show a video feed from Loomos front camera.
 
@@ -46,9 +46,11 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LIC
 
 ## Related Repositories
 
-Robot endpoint (https://github.com/iteratec/LoomoRemoteRobot)
-VirtualJoystick view for Android (https://github.com/controlwear/virtual-joystick-android)
-Other sample apps from SegwayRobotics (https://github.com/SegwayRoboticsSamples)
+[Robot endpoint](https://github.com/iteratec/LoomoRemoteRobot)
+
+[VirtualJoystick view for Android](https://github.com/controlwear/virtual-joystick-android)
+
+[Other sample apps from SegwayRobotics](https://github.com/SegwayRoboticsSamples)
 
 ## Disclaimer
 
