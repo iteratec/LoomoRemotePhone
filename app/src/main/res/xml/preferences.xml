@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="voice_recognition"
+        android:summary="Loomo will actively listen to voice commands directed to him"
+        android:title="Enable voice recognition" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="emoji"
+        android:summary="Will replace the developer information on Loomos screen with his Emoji functionality"
+        android:title="Activate Emoji Frontend" />
+
+</PreferenceScreen>

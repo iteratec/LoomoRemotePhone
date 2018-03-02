@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SegwayRemote</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_fragment_title_head">Head Controller</string>
+    <string name="navigation_fragment_title_raw">Raw Controller</string>
+    <string name="navigation_fragment_title_tts">Text to Speech</string>
+    <string name="navigation_fragment_title_vision">Camera Remote</string>
+    <string name="navigation_fragment_title_settings">Settings</string>
+    <string name="navigation_fragment_title_emoji">Emojis</string>
+    <string name="navigation_fragment_title_grid">Grid Movement</string>
+
+    <string name="head_fragment_mode_button_smooth">Smooth</string>
+    <string name="head_fragment_mode_button_orientation">Orientation</string>
+
+</resources>

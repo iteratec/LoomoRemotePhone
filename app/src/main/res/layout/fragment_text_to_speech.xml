@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/speech_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exterminate" />
+
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/volumeSeekBar"
+            android:progress="1"/>
+
+        <Button
+            android:id="@+id/sound_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Send Sound" />
+
+        <Button
+            android:id="@+id/brodcast_audio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play Broadcast" />
+
+        <Button
+            android:id="@+id/end_broadcast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Broadcast" />
+
+</LinearLayout>

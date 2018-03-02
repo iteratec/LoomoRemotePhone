@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/raw_control"
+            android:title="Raw Control" />
+        <item
+            android:id="@+id/head_control"
+            android:title="Head Control" />
+        <item
+            android:id="@+id/tts"
+            android:title="Text to Speech" />
+
+        <item
+            android:id="@+id/emoji"
+            android:title="Emoji Control" />
+
+        <item
+            android:id="@+id/vision"
+            android:title="Camera Stream" />
+
+        <item
+            android:id="@+id/movement_grid"
+            android:title="Movement Grid" />
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

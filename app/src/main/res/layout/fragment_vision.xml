@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_stream"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <io.github.controlwear.virtual.joystick.android.JoystickView xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/stream_joy_speed"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:layout_margin="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            custom:JV_backgroundColor="#009688"
+            custom:JV_borderColor="#00796B"
+            custom:JV_borderWidth="8dp"
+            custom:JV_buttonColor="#FF6E40"
+            custom:JV_fixedCenter="true" />
+
+        <io.github.controlwear.virtual.joystick.android.JoystickView xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/stream_joy_direction"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:layout_margin="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            custom:JV_backgroundColor="#009688"
+            custom:JV_borderColor="#00796B"
+            custom:JV_borderWidth="8dp"
+            custom:JV_buttonColor="#FF6E40"
+            custom:JV_fixedCenter="true" />
+
+
+        <io.github.controlwear.virtual.joystick.android.JoystickView xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/stream_joy_head_pitch"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:layout_margin="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            custom:JV_backgroundColor="#009688"
+            custom:JV_borderColor="#00796B"
+            custom:JV_borderWidth="8dp"
+            custom:JV_buttonColor="#FF6E40"
+            custom:JV_fixedCenter="true" />
+
+        <io.github.controlwear.virtual.joystick.android.JoystickView xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/stream_joy_head_yaw"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:layout_margin="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            custom:JV_backgroundColor="#009688"
+            custom:JV_borderColor="#00796B"
+            custom:JV_borderWidth="8dp"
+            custom:JV_buttonColor="#FF6E40"
+            custom:JV_fixedCenter="true" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

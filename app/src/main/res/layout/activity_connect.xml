@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/intro_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Iteratec Loomo Remote"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:id="@+id/intro_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intro_header"
+        android:text="Please enter Loomo's IP address. You can find it on his screen. Please make sure you are in the same wifi network." />
+
+
+    <LinearLayout
+        android:id="@+id/status_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intro_text"
+        android:paddingTop="50px">
+
+        <TextView
+            android:id="@+id/status_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connection Status: " />
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/status_header"
+            android:text="Idle" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/ip_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/status_layout"
+        android:paddingTop="50px"
+        android:text="192.168.107.164" />
+
+
+    <Button
+        android:id="@+id/button_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ip_input"
+        android:layout_centerHorizontal="true"
+        android:onClick="connectToRobot"
+        android:text="Connect" />
+
+
+    <Button
+        android:id="@+id/button_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_connect"
+        android:layout_centerHorizontal="true"
+        android:onClick="skipToController"
+        android:text="Skip" />
+
+</RelativeLayout>

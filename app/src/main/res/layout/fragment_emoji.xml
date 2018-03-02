@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/emoji_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/emoji_look_around"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="look_around"
+            android:text="Look Around" />
+
+        <Button
+            android:id="@+id/emoji_look_comfort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="look_comfort"
+            android:text="Look Comfort" />
+
+        <Button
+            android:id="@+id/emoji_look_curious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="look_curious"
+            android:text="Look curious" />
+
+
+        <Button
+            android:id="@+id/emoji_look_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="look_no"
+            android:text="Look no" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/emoji_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/emoji_look_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="look_up"
+            android:text="Look up" />
+
+        <Button
+            android:id="@+id/emoji_look_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="look_down"
+            android:text="Look down" />
+
+        <Button
+            android:id="@+id/emoji_look_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="look_left"
+            android:text="Look left" />
+
+        <Button
+            android:id="@+id/emoji_look_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="look_right"
+            android:text="Look right" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/emoji_layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/emoji_turn_around"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="turn_around"
+            android:text="Turn around" />
+
+        <Button
+            android:id="@+id/emoji_turn_full"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="turn_full"
+            android:text="Turn full" />
+
+        <Button
+            android:id="@+id/emoji_turn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="turn_left"
+            android:text="Turn left" />
+
+        <Button
+            android:id="@+id/emoji_turn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="sendCommand"
+            android:tag="turn_right"
+            android:text="Turn right" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
