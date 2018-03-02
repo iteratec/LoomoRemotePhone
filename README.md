@@ -17,6 +17,7 @@ It allows users to remotely control the robot, play sounds, use text-to-speech a
 * Text-to-Speech and file playing showcase
 * Movement Showcase of Loomo's VLS mode
 * Voice recognition and command parsing
+* Emoji functionality showcase
 
 ## Getting Started
 
