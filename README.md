@@ -56,9 +56,9 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LIC
 
 ## Disclaimer
 
-This project is a prototype developed by Iteratec's students and interns.
+This project is a prototype developed by iteratec's students and interns.
 It is work in progress in many areas and does not reflect the usual code quality standards
-applied by Iteratec.
+applied by iteratec.
 
 ## Acknowledgments
 
